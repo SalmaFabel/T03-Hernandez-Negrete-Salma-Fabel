@@ -1,0 +1,27 @@
+ion-content{
+    text-align: center;
+ 
+}
+ion-card-title{
+    font: 30px Helvetica;
+    color:black;
+
+}
+.cal{
+    font: 25px Helvetica;
+}
+ion-card{
+    font: 20px Helvetica;
+    color:black;
+}
+.titulo{
+    font: 25px Helvetica;
+    color:black;
+}
+p{
+    text-align: justify;
+    padding: 25px ;
+   
+}
+
+

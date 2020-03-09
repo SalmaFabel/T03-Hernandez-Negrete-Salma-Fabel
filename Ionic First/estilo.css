@@ -1,0 +1,24 @@
+ion-content{
+    text-align: center;
+ 
+}
+ion-card-title{
+    font: 30px Helvetica;
+    color: white;
+
+}
+ion-card{
+    font: 24px Helvetica;
+    color:white;
+    background: rgb(54, 138, 187);
+
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border:none;
+}
+
+

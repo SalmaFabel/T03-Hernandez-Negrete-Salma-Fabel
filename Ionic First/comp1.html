@@ -64,8 +64,28 @@
              Yi y sus amigos, Jin y Peng, rápidamente emprenden una búsqueda épica para reunir a esta mágica criatura con su familia, que se encuentra en el punto más alejado del planeta. El viaje no será fácil, pues detrás de ellos está Burnish, un hombre millonario que intenta capturar a toda costa a la criatura,
               y la zoóloga Doctora Zara. Desde las calles de Shanghai, hasta los impresionantes paisajes nevados del Himalaya, el trío de amigos tendrá que mantenerse alerta y siempre un paso delante de los que quieren capturar a Everest. Yi hará hasta lo imposible por regresarlo a casa  y verlo reunido con su familia.</p>
     </ion-card>
+    <ion-card>
+ <ion-label class="titulo" >Comentario</ion-label>
+    <ion-item>
+        <ion-label position="floating">Escribe tu comentario...</ion-label>
+        <ion-input type="text" id="input-reason"></ion-input>
+    </ion-item>
+    <div class="magin-vertical text-right">
+        <ion-button id="btn-confirm">
+            <ion-icon slot="start" name="add"></ion-icon>
+            Agregar
+        </ion-button>
+    </div>
+</ion-card>
+<ion-card>
+    <hr/>
+    <h1>lista de Comentarios</h1>
+    <ion-list id="lista"></ion-list>
+</ion-card>
     </ion-card-content>    
     </ion-content>
     </ion-app>
+
 </body>
+<script src="./scrip.js"></script>
 </html>

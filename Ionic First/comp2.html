@@ -67,8 +67,29 @@
              pondrá a prueba los lazos de su relación como nunca antes. Claro que, cuando la amenaza más oscura a la que se han enfrentado ponga en peligro a sus respectivos clanes, ambos, dragón y 
              vikingo, deberán llevar a cabo decisiones imposibles para salvar a los suyos. </p>
     </ion-card>
-    </ion-card-content>    
-    </ion-content>
-    </ion-app>
-</body>
-</html>
+    <ion-card>
+        <ion-label class="titulo" >Comentario</ion-label>
+           <ion-item>
+               <ion-label position="floating">Escribe tu comentario...</ion-label>
+               <ion-input type="text" id="input-reason"></ion-input>
+           </ion-item>
+           <div class="magin-vertical text-right">
+               <ion-button id="btn-confirm">
+                   <ion-icon slot="start" name="add"></ion-icon>
+                   Agregar
+               </ion-button>
+           </div>
+       </ion-card>
+       <ion-card>
+           <hr/>
+           <h1>lista de Comentarios</h1>
+           <ion-list id="lista"></ion-list>
+       </ion-card>
+           </ion-card-content>    
+           </ion-content>
+           </ion-app>
+       
+       </body>
+       <script src="./scrip.js"></script>
+       </html>
+       

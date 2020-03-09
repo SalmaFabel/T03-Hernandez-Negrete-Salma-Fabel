@@ -69,8 +69,29 @@
              decida destruir toda la música que no es el Rock. Para detenerla, y que los trolls puedan ser como quieran sin que las diferencias importen,
               Poppy tendrá que enfrentarse a Barb para que no destruya su colorido y variado mundo. Porque su cometido es protegerlos pase lo que pase.</p>
     </ion-card>
-    </ion-card-content>    
-    </ion-content>
-    </ion-app>
-</body>
-</html>
+    <ion-card>
+        <ion-label class="titulo" >Comentario</ion-label>
+           <ion-item>
+               <ion-label position="floating">Escribe tu comentario...</ion-label>
+               <ion-input type="text" id="input-reason"></ion-input>
+           </ion-item>
+           <div class="magin-vertical text-right">
+               <ion-button id="btn-confirm">
+                   <ion-icon slot="start" name="add"></ion-icon>
+                   Agregar
+               </ion-button>
+           </div>
+       </ion-card>
+       <ion-card>
+           <hr/>
+           <h1>lista de Comentarios</h1>
+           <ion-list id="lista"></ion-list>
+       </ion-card>
+           </ion-card-content>    
+           </ion-content>
+           </ion-app>
+       
+       </body>
+       <script src="./scrip.js"></script>
+       </html>
+       
